@@ -4,7 +4,7 @@ public class PerformanceComparison {
     private static final String TEST_STRING = "A man a plan a canal Panama";
     
     public static void main(String[] args) {
-        System.out.println("===== Performance Comparison ====="+"\n");
+        System.out.println("===== Performance Comparison =====\n");
         
         // Test TwoPointerCheck
         long twoPointerTime = TwoPointerCheck(TEST_STRING);
